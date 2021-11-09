@@ -3,4 +3,5 @@
     <dimen name="margin_wide">16dp</dimen>
     <dimen name= "margin_half">8dp</dimen>
     <dimen name= "box_test_size">24sp</dimen>
+    <dimen name="width">130dp</dimen>
 </resources>
