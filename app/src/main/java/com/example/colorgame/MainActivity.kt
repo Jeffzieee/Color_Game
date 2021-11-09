@@ -7,7 +7,7 @@ import android.view.View
 import android.widget.TextView
 
 class MainActivity : AppCompatActivity() {
- //Jeffzieee
+ //Completed
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -36,4 +36,5 @@ class MainActivity : AppCompatActivity() {
         else -> view.setBackgroundColor(Color.DKGRAY)
 
     }
+
 }
