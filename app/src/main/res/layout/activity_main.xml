@@ -8,7 +8,7 @@
 
     <TextView
         android:id="@+id/box1"
-        style="@style/text_style"
+        style="@style/White_box1"
         android:text="@string/textview1"
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -19,7 +19,7 @@
 
     <TextView
         android:id="@+id/box2"
-        style="@style/text_style"
+        style="@style/White_box2"
         android:layout_width="130dp"
         android:layout_height="130dp"
         android:text="@string/box_two"
@@ -29,10 +29,10 @@
 
     <TextView
         android:id="@+id/box3"
+        style="@style/White_box3n5"
         android:layout_width="@dimen/width"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:background="#4CAF50"
         android:text="@string/box_three"
         app:layout_constraintBottom_toTopOf="@+id/box4"
         app:layout_constraintStart_toEndOf="@+id/box2"
@@ -40,12 +40,12 @@
 
     <TextView
         android:id="@+id/box4"
+        style="@style/White_box4"
         android:layout_width="@dimen/width"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="16dp"
-        android:background="#4CAF50"
         android:text="@string/box_four"
         app:layout_constraintBottom_toTopOf="@+id/box5"
         app:layout_constraintStart_toEndOf="@+id/box2"
@@ -53,10 +53,10 @@
 
     <TextView
         android:id="@+id/box5"
+        style="@style/White_box3n5"
         android:layout_width="@dimen/width"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:background="#4CAF50"
         android:text="@string/box_five"
         app:layout_constraintBottom_toBottomOf="@+id/box2"
         app:layout_constraintStart_toEndOf="@+id/box2"
